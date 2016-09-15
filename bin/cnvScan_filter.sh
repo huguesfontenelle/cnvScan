@@ -8,4 +8,4 @@ python ${DIR}/../src/cnvScan_VarFilt.py \
     -i $@ \
     -o ${@%.*}.filtered.tsv \
     --score 10 \
-    --genelist genelist.tsv.gz
+    --genelist ${DIR}/../data/genelist.tsv.gz
